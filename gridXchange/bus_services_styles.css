@@ -1,0 +1,476 @@
+.mediaViewInfo {
+    --web-view-name: Bus Services;
+    --web-view-id: Bus_Services;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: Bus_Services;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#Bus_Services {
+    position: absolute;
+    width: 1920px;
+    height: 1212px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+    --web-view-name: Bus Services;
+    --web-view-id: Bus_Services;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+
+@keyframes fadein {
+
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+#Line_1 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_1 {
+    overflow: visible;
+    position: absolute;
+    width: 1832px;
+    height: 1px;
+    left: 44.5px;
+    top: 66.5px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Welcome_to_City_of_Tshwane {
+    left: 129px;
+    top: 22px;
+    position: absolute;
+    overflow: visible;
+    width: 253px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0,0,0,1);
+}
+#Text {
+    left: 1713px;
+    top: 764px;
+    position: absolute;
+    overflow: visible;
+    width: 1px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(0,0,0,1);
+}
+#Rectangle_4 {
+    fill: rgba(68,172,51,1);
+}
+.Rectangle_4 {
+    position: absolute;
+    overflow: visible;
+    width: 1411px;
+    height: 283px;
+    left: 238px;
+    top: 481px;
+}
+#Bus_Services_ {
+    left: 263px;
+    top: 508px;
+    position: absolute;
+    overflow: visible;
+    width: 205px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgba(255,255,255,1);
+}
+#We_offer_a_transport_service_i {
+    left: 262px;
+    top: 583px;
+    position: absolute;
+    overflow: visible;
+    width: 1257px;
+    height: 181px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(255,255,255,1);
+}
+#Group_34 {
+    position: absolute;
+    width: 1832px;
+    height: 120.5px;
+    left: 44px;
+    top: 999.5px;
+    overflow: visible;
+}
+#Line_5 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_5 {
+    overflow: visible;
+    position: absolute;
+    width: 1832px;
+    height: 1px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#n_023_City_of_Tshwane_All_Righ {
+    left: 1419.5px;
+    top: 94.5px;
+    position: absolute;
+    overflow: visible;
+    width: 391px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0,0,0,1);
+}
+#ButtonDefaultLight {
+    position: absolute;
+    width: 327px;
+    height: 73px;
+    left: 239px;
+    top: 822px;
+    overflow: visible;
+    padding: 20px;
+}
+#Light__F8F9FA {
+    fill: rgba(68,172,51,1);
+}
+.Light__F8F9FA {
+    position: absolute;
+    overflow: visible;
+    width: 327px;
+    height: 73px;
+    left: 0px;
+    top: 0px;
+}
+#Refill_Connector_Card {
+    left: 20px;
+    top: 20px;
+    position: absolute;
+    overflow: visible;
+    width: 288px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+}
+#ButtonDefaultLight_bh {
+    position: absolute;
+    width: 155px;
+    height: 73px;
+    left: 587px;
+    top: 822px;
+    overflow: visible;
+    padding: 20px;
+}
+#Light__F8F9FA_bi {
+    fill: rgba(68,172,51,1);
+}
+.Light__F8F9FA_bi {
+    position: absolute;
+    overflow: visible;
+    width: 155px;
+    height: 73px;
+    left: 0px;
+    top: 0px;
+}
+#Bus_Hire {
+    left: 20px;
+    top: 20px;
+    position: absolute;
+    overflow: visible;
+    width: 116px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+}
+#ButtonDefaultLight_bk {
+    position: absolute;
+    width: 237px;
+    height: 73px;
+    left: 763px;
+    top: 822px;
+    overflow: visible;
+    padding: 20px;
+}
+#Light__F8F9FA_bl {
+    fill: rgba(68,172,51,1);
+}
+.Light__F8F9FA_bl {
+    position: absolute;
+    overflow: visible;
+    width: 237px;
+    height: 73px;
+    left: 0px;
+    top: 0px;
+}
+#Bus_TimeTable {
+    left: 20px;
+    top: 20px;
+    position: absolute;
+    overflow: visible;
+    width: 198px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+    text-decoration: underline;
+}
+#Group_75 {
+    position: absolute;
+    width: 144.944px;
+    height: 152px;
+    left: 888px;
+    top: 144.5px;
+    overflow: visible;
+}
+#Group_69 {
+    position: absolute;
+    width: 144.944px;
+    height: 152px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Group_7 {
+    position: absolute;
+    width: 122px;
+    height: 122px;
+    left: 1698px;
+    top: 840px;
+    overflow: visible;
+    --web-animation: fadein undefineds undefined;
+    --web-action-type: page;
+    --web-action-target: Home_page_.html;
+    cursor: pointer;
+}
+#Ellipse_1 {
+    fill: rgba(68,172,51,1);
+}
+.Ellipse_1 {
+    position: absolute;
+    overflow: visible;
+    width: 122px;
+    height: 122px;
+    left: 0px;
+    top: 0px;
+}
+#home-filled-svgrepo-com {
+    fill: rgba(255,255,255,1);
+}
+.home-filled-svgrepo-com {
+    overflow: visible;
+    position: absolute;
+    width: 52.898px;
+    height: 51.527px;
+    left: 34.551px;
+    top: 35.236px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#HOME____ {
+    left: 223px;
+    top: 349px;
+    position: absolute;
+    overflow: visible;
+    width: 97px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(0,0,0,1);
+}
+#n____BIZZ____ {
+    left: 1236px;
+    top: 350px;
+    position: absolute;
+    overflow: visible;
+    width: 103px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(0,0,0,1);
+}
+#n_____MEDIA____ {
+    left: 1339px;
+    top: 350px;
+    position: absolute;
+    overflow: visible;
+    width: 133px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(0,0,0,1);
+}
+#n____CONTACT_US_ {
+    left: 1471px;
+    top: 350px;
+    position: absolute;
+    overflow: visible;
+    width: 175px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(0,0,0,1);
+}
+#n____ABOUT_TSHWANE_____ {
+    left: 977px;
+    top: 350px;
+    position: absolute;
+    overflow: visible;
+    width: 260px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(0,0,0,1);
+}
+#n____COUNCIL____ {
+    left: 827px;
+    top: 350px;
+    position: absolute;
+    overflow: visible;
+    width: 155px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(0,0,0,1);
+}
+#n___GRIDXCHANGE____ {
+    left: 611px;
+    top: 350px;
+    position: absolute;
+    overflow: visible;
+    width: 217px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(0,0,0,1);
+}
+#n___MUNICIPAL_SERVICES____ {
+    left: 319px;
+    top: 350px;
+    position: absolute;
+    overflow: visible;
+    width: 293px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(0,0,0,1);
+}
+#logout-svgrepo-com {
+    position: absolute;
+    width: 37.777px;
+    height: 37.94px;
+    left: 1659.723px;
+    top: 345.03px;
+    overflow: visible;
+    --web-animation: fadein 3s ease-out;
+    --web-action-type: page;
+    --web-action-target: Logged_out.html;
+    cursor: pointer;
+}
+#Path_3233 {
+    fill: rgba(0,0,0,1);
+}
+.Path_3233 {
+    overflow: visible;
+    position: absolute;
+    width: 26.558px;
+    height: 37.94px;
+    left: 11.219px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Path_3234 {
+    fill: rgba(0,0,0,1);
+}
+.Path_3234 {
+    overflow: visible;
+    position: absolute;
+    width: 1.897px;
+    height: 3.794px;
+    left: 22.601px;
+    top: 17.073px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Path_3235 {
+    fill: rgba(0,0,0,1);
+}
+.Path_3235 {
+    overflow: visible;
+    position: absolute;
+    width: 22.601px;
+    height: 15.176px;
+    left: 0px;
+    top: 11.382px;
+    transform: matrix(1,0,0,1,0,0);
+}

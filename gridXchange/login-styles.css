@@ -1,0 +1,372 @@
+.mediaViewInfo {
+    --web-view-name: Login Page;
+    --web-view-id: Login_Page;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: Login_Page;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#Login_Page {
+    position: absolute;
+    width: 1920px;
+    height: 1284px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+    --web-view-name: Login Page;
+    --web-view-id: Login_Page;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+
+#Line_1 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_1 {
+    overflow: visible;
+    position: absolute;
+    width: 1832px;
+    height: 1px;
+    left: 44.5px;
+    top: 66.5px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Line_3 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_3 {
+    overflow: visible;
+    position: absolute;
+    width: 1832px;
+    height: 1px;
+    left: 44.5px;
+    top: 1081.5px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Welcome_to_City_of_Tshwane {
+    left: 129px;
+    top: 22px;
+    position: absolute;
+    overflow: visible;
+    width: 253px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0,0,0,1);
+}
+#n_023_City_of_Tshwane_All_Righ {
+    left: 1464px;
+    top: 1176px;
+    position: absolute;
+    overflow: visible;
+    width: 391px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0,0,0,1);
+}
+#Rectangle_3 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(68,172,51,1);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_3 {
+    position: absolute;
+    overflow: visible;
+    width: 811px;
+    height: 776px;
+    left: 555px;
+    top: 210px;
+}
+#Component_18__1 {
+    position: absolute;
+    width: 536px;
+    height: 48px;
+    left: 692px;
+    top: 534px;
+    overflow: visible;
+}
+#Group_13 {
+    position: absolute;
+    width: 536px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Base {
+    position: absolute;
+    width: 536px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#InputBase {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(224,224,224,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.InputBase {
+    position: absolute;
+    overflow: visible;
+    width: 538px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+}
+#Text_State {
+    left: 12.5px;
+    top: 10.5px;
+    position: absolute;
+    overflow: visible;
+    width: 57px;
+    white-space: nowrap;
+    line-height: 30px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: HelveticaNeue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(134,142,150,1);
+}
+#Component_19__1 {
+    position: absolute;
+    width: 536px;
+    height: 48px;
+    left: 692px;
+    top: 615px;
+    overflow: visible;
+}
+#FormInputTextLarge {
+    position: absolute;
+    width: 536px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#InputBase_bh {
+    position: absolute;
+    width: 536px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#InputBase_bi {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(224,224,224,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.InputBase_bi {
+    position: absolute;
+    overflow: visible;
+    width: 538px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+}
+#Text_State_bj {
+    left: 12.5px;
+    top: 10.5px;
+    position: absolute;
+    overflow: visible;
+    width: 88px;
+    white-space: nowrap;
+    line-height: 30px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: HelveticaNeue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(134,142,150,1);
+}
+#Group_14 {
+    position: absolute;
+    width: 105px;
+    height: 37px;
+    left: 908px;
+    top: 1014px;
+    overflow: visible;
+    --web-animation: fadein 3s ease-out;
+    --web-action-type: page;
+    --web-action-target: Home_page_.html;
+    cursor: pointer;
+}
+#Primary__007BFF {
+    fill: rgba(105,189,92,1);
+}
+.Primary__007BFF {
+    position: absolute;
+    overflow: visible;
+    width: 105px;
+    height: 37px;
+    left: 0px;
+    top: 0px;
+}
+#Login {
+    left: 33px;
+    top: 10px;
+    position: absolute;
+    overflow: visible;
+    width: 40px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(255,255,255,1);
+}
+#n_New_to_the_system_ {
+    left: 836px;
+    top: 911px;
+    position: absolute;
+    overflow: visible;
+    width: 167px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#Sign_up {
+    left: 1003px;
+    top: 911px;
+    position: absolute;
+    overflow: visible;
+    width: 61px;
+    white-space: nowrap;
+    transition: all 0.30000001192092896s ease-out;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Registration_page.html;
+    cursor: pointer;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,34,129,1);
+    text-decoration: underline;
+}
+#I_have_forgot_my_password {
+    left: 692px;
+    top: 676px;
+    position: absolute;
+    overflow: visible;
+    width: 178px;
+    white-space: nowrap;
+    --web-animation: fadein undefineds undefined;
+    --web-action-type: page;
+    --web-action-target: Password_Recover.html;
+    cursor: pointer;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(0,0,0,1);
+    text-decoration: underline;
+}
+#Group_50 {
+    position: absolute;
+    width: 140px;
+    height: 118px;
+    left: 828.999px;
+    top: 266px;
+    overflow: visible;
+}
+#contttttt-1 {
+    position: absolute;
+    width: 140px;
+    height: 118px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Line_2 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_2 {
+    overflow: visible;
+    position: absolute;
+    width: 1px;
+    height: 78.667px;
+    left: 139.36px;
+    top: 22.513px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Group_71 {
+    position: absolute;
+    width: 91.668px;
+    height: 96.131px;
+    left: 999.333px;
+    top: 276.935px;
+    overflow: visible;
+}
+#Group_69 {
+    position: absolute;
+    width: 91.668px;
+    height: 96.131px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}

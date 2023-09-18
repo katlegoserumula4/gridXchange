@@ -1,0 +1,569 @@
+.mediaViewInfo {
+    --web-view-name: Registration page;
+    --web-view-id: Registration_page;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: Registration_page;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+#Registration_page {
+    position: absolute;
+    width: 1920px;
+    height: 1284px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+    --web-view-name: Registration page;
+    --web-view-id: Registration_page;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+
+#Line_1 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_1 {
+    overflow: visible;
+    position: absolute;
+    width: 1832px;
+    height: 1px;
+    left: 44.5px;
+    top: 66.5px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Line_3 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_3 {
+    overflow: visible;
+    position: absolute;
+    width: 1832px;
+    height: 1px;
+    left: 44.5px;
+    top: 1081.5px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Welcome_to_City_of_Tshwane {
+    left: 129px;
+    top: 22px;
+    position: absolute;
+    overflow: visible;
+    width: 253px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0,0,0,1);
+}
+#n_023_City_of_Tshwane_All_Righ {
+    left: 1464px;
+    top: 1176px;
+    position: absolute;
+    overflow: visible;
+    width: 391px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0,0,0,1);
+}
+#Rectangle_3 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(68,172,51,1);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_3 {
+    position: absolute;
+    overflow: visible;
+    width: 811px;
+    height: 776px;
+    left: 555px;
+    top: 210px;
+}
+#Group_13 {
+    position: absolute;
+    width: 536px;
+    height: 48px;
+    left: 692px;
+    top: 427px;
+    overflow: visible;
+}
+#InputBase {
+    position: absolute;
+    width: 536px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#InputBase_bc {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(224,224,224,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.InputBase_bc {
+    position: absolute;
+    overflow: visible;
+    width: 538px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+}
+#Text_State {
+    left: 12.5px;
+    top: 10.5px;
+    position: absolute;
+    overflow: visible;
+    width: 100px;
+    white-space: nowrap;
+    line-height: 30px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: HelveticaNeue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(134,142,150,1);
+}
+#FormInputTextLarge {
+    position: absolute;
+    width: 536px;
+    height: 48px;
+    left: 692px;
+    top: 508px;
+    overflow: visible;
+}
+#InputBase_bf {
+    position: absolute;
+    width: 536px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#InputBase_bg {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(224,224,224,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.InputBase_bg {
+    position: absolute;
+    overflow: visible;
+    width: 538px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+}
+#Text_State_bh {
+    left: 12.5px;
+    top: 10.5px;
+    position: absolute;
+    overflow: visible;
+    width: 98px;
+    white-space: nowrap;
+    line-height: 30px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: HelveticaNeue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(134,142,150,1);
+}
+#FormInputTextLarge_bi {
+    position: absolute;
+    width: 536px;
+    height: 48px;
+    left: 692px;
+    top: 587px;
+    overflow: visible;
+}
+#InputBase_bj {
+    position: absolute;
+    width: 536px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#InputBase_bk {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(224,224,224,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.InputBase_bk {
+    position: absolute;
+    overflow: visible;
+    width: 538px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+}
+#Text_State_bl {
+    left: 12.5px;
+    top: 10.5px;
+    position: absolute;
+    overflow: visible;
+    width: 57px;
+    white-space: nowrap;
+    line-height: 30px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: HelveticaNeue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(134,142,150,1);
+}
+#FormInputTextLarge_bm {
+    position: absolute;
+    width: 536px;
+    height: 48px;
+    left: 692px;
+    top: 666px;
+    overflow: visible;
+}
+#InputBase_bn {
+    position: absolute;
+    width: 536px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#InputBase_bo {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(224,224,224,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.InputBase_bo {
+    position: absolute;
+    overflow: visible;
+    width: 538px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+}
+#Text_State_bp {
+    left: 12.5px;
+    top: 10.5px;
+    position: absolute;
+    overflow: visible;
+    width: 129px;
+    white-space: nowrap;
+    line-height: 30px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: HelveticaNeue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(134,142,150,1);
+}
+#FormInputTextLarge_bq {
+    position: absolute;
+    width: 536px;
+    height: 48px;
+    left: 692px;
+    top: 745px;
+    overflow: visible;
+}
+#InputBase_br {
+    position: absolute;
+    width: 536px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#InputBase_bs {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(224,224,224,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.InputBase_bs {
+    position: absolute;
+    overflow: visible;
+    width: 538px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+}
+#Text_State_bt {
+    left: 12.5px;
+    top: 10.5px;
+    position: absolute;
+    overflow: visible;
+    width: 94px;
+    white-space: nowrap;
+    line-height: 30px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: HelveticaNeue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(134,142,150,1);
+}
+#FormInputTextLarge_bu {
+    position: absolute;
+    width: 536px;
+    height: 48px;
+    left: 692px;
+    top: 824px;
+    overflow: visible;
+}
+#InputBase_bv {
+    position: absolute;
+    width: 536px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#InputBase_bw {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(224,224,224,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.InputBase_bw {
+    position: absolute;
+    overflow: visible;
+    width: 538px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+}
+#Text_State_bx {
+    left: 12.5px;
+    top: 10.5px;
+    position: absolute;
+    overflow: visible;
+    width: 151px;
+    white-space: nowrap;
+    line-height: 30px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: HelveticaNeue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(134,142,150,1);
+}
+#Group_38 {
+    position: absolute;
+    width: 105px;
+    height: 37px;
+    left: 908px;
+    top: 1012px;
+    overflow: visible;
+}
+#Primary__007BFF {
+    fill: rgba(105,189,92,1);
+}
+.Primary__007BFF {
+    position: absolute;
+    overflow: visible;
+    width: 105px;
+    height: 37px;
+    left: 0px;
+    top: 0px;
+    transition: all 0.30000001192092896s ease-out;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Login_Page.html;
+}
+#Register {
+    left: 23px;
+    top: 10px;
+    position: absolute;
+    overflow: visible;
+    width: 61px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(255,255,255,1);
+}
+#Already_have_a_account_ {
+    left: 836px;
+    top: 909px;
+    position: absolute;
+    overflow: visible;
+    width: 200px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#Login {
+    left: 1035px;
+    top: 909px;
+    position: absolute;
+    overflow: visible;
+    width: 50px;
+    white-space: nowrap;
+    --web-animation: fadein undefineds undefined;
+    --web-action-type: page;
+    /* --web-action-target: Login_Page.html; */
+    cursor: pointer;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,34,129,1);
+    text-decoration: underline;
+}
+#Group_49 {
+    position: absolute;
+    width: 262.002px;
+    height: 118px;
+    left: 829px;
+    top: 243px;
+    overflow: visible;
+}
+#contttttt-1 {
+    position: absolute;
+    width: 140px;
+    height: 118px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Line_2 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_2 {
+    overflow: visible;
+    position: absolute;
+    width: 1px;
+    height: 78.667px;
+    left: 139.36px;
+    top: 22.513px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Group_46 {
+    position: absolute;
+    width: 96.048px;
+    height: 111.026px;
+    left: 165.953px;
+    top: 3.487px;
+    overflow: visible;
+}
+#Group_45 {
+    position: absolute;
+    width: 96.048px;
+    height: 111.026px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Group_70 {
+    position: absolute;
+    width: 91.668px;
+    height: 96.131px;
+    left: 999.333px;
+    top: 253.935px;
+    overflow: visible;
+}
+#Group_69 {
+    position: absolute;
+    width: 91.668px;
+    height: 96.131px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.register-button{
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 50px;
+    background-color: limegreen;
+    color: white;
+    font-size: 100%;
+    padding-top: 10px;
+    padding: 20px;
+}
+.register-button:hover{
+    background-color: white;
+    color: green;
+    cursor: pointer;
+    border: 4px solid green;
+}
